@@ -7,7 +7,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "getstream", "chat", "nodejs","expressjs", "twilio"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -20,5 +22,8 @@
     "nodemon": "^2.0.18",
     "stream-chat": "^6.7.2",
     "twilio": "^3.78.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
